@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		685093F32C7733890022A26D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685093F22C7733890022A26D /* AppDelegate.m */; };
+		685093F62C7733890022A26D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685093F52C7733890022A26D /* SceneDelegate.m */; };
+		685093F92C7733890022A26D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685093F82C7733890022A26D /* ViewController.m */; };
+		685093FC2C7733890022A26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685093FA2C7733890022A26D /* Main.storyboard */; };
+		685093FE2C77338D0022A26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685093FD2C77338D0022A26D /* Assets.xcassets */; };
+		685094012C77338D0022A26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685093FF2C77338D0022A26D /* LaunchScreen.storyboard */; };
+		685094042C77338D0022A26D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685094032C77338D0022A26D /* main.m */; };
+		6850940E2C77338D0022A26D /* KJPCMPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6850940D2C77338D0022A26D /* KJPCMPlayerTests.m */; };
+		685094182C77338D0022A26D /* KJPCMPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685094172C77338D0022A26D /* KJPCMPlayerUITests.m */; };
+		6850941A2C77338D0022A26D /* KJPCMPlayerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685094192C77338D0022A26D /* KJPCMPlayerUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6850940A2C77338D0022A26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685093E62C7733890022A26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685093ED2C7733890022A26D;
+			remoteInfo = KJPCMPlayer;
+		};
+		685094142C77338D0022A26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685093E62C7733890022A26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685093ED2C7733890022A26D;
+			remoteInfo = KJPCMPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		685093EE2C7733890022A26D /* KJPCMPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJPCMPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685093F12C7733890022A26D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		685093F22C7733890022A26D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685093F42C7733890022A26D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		685093F52C7733890022A26D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		685093F72C7733890022A26D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		685093F82C7733890022A26D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		685093FB2C7733890022A26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685093FD2C77338D0022A26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685094002C77338D0022A26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685094022C77338D0022A26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685094032C77338D0022A26D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685094092C77338D0022A26D /* KJPCMPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJPCMPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6850940D2C77338D0022A26D /* KJPCMPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJPCMPlayerTests.m; sourceTree = "<group>"; };
+		685094132C77338D0022A26D /* KJPCMPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJPCMPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685094172C77338D0022A26D /* KJPCMPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJPCMPlayerUITests.m; sourceTree = "<group>"; };
+		685094192C77338D0022A26D /* KJPCMPlayerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJPCMPlayerUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685093EB2C7733890022A26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685094062C77338D0022A26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685094102C77338D0022A26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685093E52C7733890022A26D = {
+			isa = PBXGroup;
+			children = (
+				685093F02C7733890022A26D /* KJPCMPlayer */,
+				6850940C2C77338D0022A26D /* KJPCMPlayerTests */,
+				685094162C77338D0022A26D /* KJPCMPlayerUITests */,
+				685093EF2C7733890022A26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685093EF2C7733890022A26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685093EE2C7733890022A26D /* KJPCMPlayer.app */,
+				685094092C77338D0022A26D /* KJPCMPlayerTests.xctest */,
+				685094132C77338D0022A26D /* KJPCMPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685093F02C7733890022A26D /* KJPCMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				685093F12C7733890022A26D /* AppDelegate.h */,
+				685093F22C7733890022A26D /* AppDelegate.m */,
+				685093F42C7733890022A26D /* SceneDelegate.h */,
+				685093F52C7733890022A26D /* SceneDelegate.m */,
+				685093F72C7733890022A26D /* ViewController.h */,
+				685093F82C7733890022A26D /* ViewController.m */,
+				685093FA2C7733890022A26D /* Main.storyboard */,
+				685093FD2C77338D0022A26D /* Assets.xcassets */,
+				685093FF2C77338D0022A26D /* LaunchScreen.storyboard */,
+				685094022C77338D0022A26D /* Info.plist */,
+				685094032C77338D0022A26D /* main.m */,
+			);
+			path = KJPCMPlayer;
+			sourceTree = "<group>";
+		};
+		6850940C2C77338D0022A26D /* KJPCMPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6850940D2C77338D0022A26D /* KJPCMPlayerTests.m */,
+			);
+			path = KJPCMPlayerTests;
+			sourceTree = "<group>";
+		};
+		685094162C77338D0022A26D /* KJPCMPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				685094172C77338D0022A26D /* KJPCMPlayerUITests.m */,
+				685094192C77338D0022A26D /* KJPCMPlayerUITestsLaunchTests.m */,
+			);
+			path = KJPCMPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685093ED2C7733890022A26D /* KJPCMPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6850941D2C77338D0022A26D /* Build configuration list for PBXNativeTarget "KJPCMPlayer" */;
+			buildPhases = (
+				685093EA2C7733890022A26D /* Sources */,
+				685093EB2C7733890022A26D /* Frameworks */,
+				685093EC2C7733890022A26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJPCMPlayer;
+			productName = KJPCMPlayer;
+			productReference = 685093EE2C7733890022A26D /* KJPCMPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685094082C77338D0022A26D /* KJPCMPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685094202C77338D0022A26D /* Build configuration list for PBXNativeTarget "KJPCMPlayerTests" */;
+			buildPhases = (
+				685094052C77338D0022A26D /* Sources */,
+				685094062C77338D0022A26D /* Frameworks */,
+				685094072C77338D0022A26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6850940B2C77338D0022A26D /* PBXTargetDependency */,
+			);
+			name = KJPCMPlayerTests;
+			productName = KJPCMPlayerTests;
+			productReference = 685094092C77338D0022A26D /* KJPCMPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685094122C77338D0022A26D /* KJPCMPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685094232C77338D0022A26D /* Build configuration list for PBXNativeTarget "KJPCMPlayerUITests" */;
+			buildPhases = (
+				6850940F2C77338D0022A26D /* Sources */,
+				685094102C77338D0022A26D /* Frameworks */,
+				685094112C77338D0022A26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685094152C77338D0022A26D /* PBXTargetDependency */,
+			);
+			name = KJPCMPlayerUITests;
+			productName = KJPCMPlayerUITests;
+			productReference = 685094132C77338D0022A26D /* KJPCMPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685093E62C7733890022A26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					685093ED2C7733890022A26D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					685094082C77338D0022A26D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 685093ED2C7733890022A26D;
+					};
+					685094122C77338D0022A26D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 685093ED2C7733890022A26D;
+					};
+				};
+			};
+			buildConfigurationList = 685093E92C7733890022A26D /* Build configuration list for PBXProject "KJPCMPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685093E52C7733890022A26D;
+			productRefGroup = 685093EF2C7733890022A26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685093ED2C7733890022A26D /* KJPCMPlayer */,
+				685094082C77338D0022A26D /* KJPCMPlayerTests */,
+				685094122C77338D0022A26D /* KJPCMPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685093EC2C7733890022A26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685094012C77338D0022A26D /* LaunchScreen.storyboard in Resources */,
+				685093FE2C77338D0022A26D /* Assets.xcassets in Resources */,
+				685093FC2C7733890022A26D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685094072C77338D0022A26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685094112C77338D0022A26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685093EA2C7733890022A26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685093F92C7733890022A26D /* ViewController.m in Sources */,
+				685093F32C7733890022A26D /* AppDelegate.m in Sources */,
+				685094042C77338D0022A26D /* main.m in Sources */,
+				685093F62C7733890022A26D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685094052C77338D0022A26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6850940E2C77338D0022A26D /* KJPCMPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6850940F2C77338D0022A26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685094182C77338D0022A26D /* KJPCMPlayerUITests.m in Sources */,
+				6850941A2C77338D0022A26D /* KJPCMPlayerUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6850940B2C77338D0022A26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685093ED2C7733890022A26D /* KJPCMPlayer */;
+			targetProxy = 6850940A2C77338D0022A26D /* PBXContainerItemProxy */;
+		};
+		685094152C77338D0022A26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685093ED2C7733890022A26D /* KJPCMPlayer */;
+			targetProxy = 685094142C77338D0022A26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		685093FA2C7733890022A26D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685093FB2C7733890022A26D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685093FF2C77338D0022A26D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685094002C77338D0022A26D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6850941B2C77338D0022A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6850941C2C77338D0022A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6850941E2C77338D0022A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KJPCMPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJPCMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6850941F2C77338D0022A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KJPCMPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJPCMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		685094212C77338D0022A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJPCMPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJPCMPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KJPCMPlayer";
+			};
+			name = Debug;
+		};
+		685094222C77338D0022A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJPCMPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJPCMPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KJPCMPlayer";
+			};
+			name = Release;
+		};
+		685094242C77338D0022A26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJPCMPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJPCMPlayer;
+			};
+			name = Debug;
+		};
+		685094252C77338D0022A26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanxuehu.KJPCMPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJPCMPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685093E92C7733890022A26D /* Build configuration list for PBXProject "KJPCMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6850941B2C77338D0022A26D /* Debug */,
+				6850941C2C77338D0022A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6850941D2C77338D0022A26D /* Build configuration list for PBXNativeTarget "KJPCMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6850941E2C77338D0022A26D /* Debug */,
+				6850941F2C77338D0022A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685094202C77338D0022A26D /* Build configuration list for PBXNativeTarget "KJPCMPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685094212C77338D0022A26D /* Debug */,
+				685094222C77338D0022A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685094232C77338D0022A26D /* Build configuration list for PBXNativeTarget "KJPCMPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685094242C77338D0022A26D /* Debug */,
+				685094252C77338D0022A26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685093E62C7733890022A26D /* Project object */;
+}
